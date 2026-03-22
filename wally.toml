@@ -1,0 +1,14 @@
+[package]
+name = "that-guynamedbrian/signal"
+description = "A simple, fast signal module"
+license = "MIT"
+authors = ["that-guynamedbrian/kobayashi"]
+version = "1.0.0"
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+
+exclude = ["**", "src/mock.luau"]
+include = ["src", "src/*",  ".project.json", "wally.lock", "wally.toml"]
+
+[dependencies]
+worker = "that-guynamedbrian/worker@1.0.0"

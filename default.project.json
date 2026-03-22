@@ -1,0 +1,10 @@
+{
+  "name": "signal",
+  "tree": {
+    "$path":"src",
+    "packages": {
+      "$className": "Folder",
+      "$path":"Packages"
+    }
+  }
+}
