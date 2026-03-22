@@ -67,7 +67,7 @@ end
 local function signal_connect<T...>(self:Signal<T...>, callback:(T...)->())
     local nextReceiver = self._next
     
-    local receiver: Receiver<T...> = table_clone(Receiver)
+    local receiver = table_clone(Receiver) :: Receiver<T...>
     receiver._next = nextReceiver
     receiver._prev = self
     receiver._func = callback
