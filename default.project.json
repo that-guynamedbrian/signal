@@ -2,7 +2,7 @@
   "name": "signal",
   "tree": {
     "$path":"src",
-    "packages": {
+    "Packages": {
       "$className": "Folder",
       "$path":"Packages"
     }

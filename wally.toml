@@ -11,4 +11,4 @@ exclude = ["**"]
 include = ["src", "src/*",  ".project.json", "wally.lock", "wally.toml"]
 
 [dependencies]
-worker = "that-guynamedbrian/worker@1.0.0"
+worker = "that-guynamedbrian/worker@1.0.1"
