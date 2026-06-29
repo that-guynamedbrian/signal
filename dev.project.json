@@ -1,0 +1,9 @@
+{
+  "name": "signal",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage"
+    }
+  }
+}
